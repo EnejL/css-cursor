@@ -6,6 +6,8 @@ html, body {
 
 * {
     box-sizing: border-box;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -15,8 +17,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-content-grid {
     width: 100%;
-    height: 100vh;
-    background-color: aqua;
+    background-color: #9dff00;
+    background-image: url(../background-img.jpg);
     
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -28,16 +30,167 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .grid-item {
-    border: 3px solid #000;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all 0.3s;
 }
 
+/*.grid-item:hover {
+    transform: scale3d(1.05, 1.05, 1.05);
+}*/
+
 .grid-item > h1 {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #918a8a;
 }
 
 .grid-item > p {
     font-size: 19px;
     padding: 0px 15px;
+}
+
+/* cursor styling */
+
+#1:hover {
+    cursor: alias;
+}
+
+#2:hover {
+    cursor: all-scroll;
+}
+
+#3:hover {
+    cursor: auto;
+}
+
+#4:hover {
+    cursor: cell;
+}
+
+#5:hover {
+    cursor: context-menu;
+}
+
+#6:hover {
+    cursor: col-resize;
+}
+
+#7:hover {
+    cursor: copy;
+}
+
+#8 {
+    cursor: crosshair;
+}
+
+#9:hover {
+    cursor: e-resize;
+}
+
+#10:hover {
+    cursor: ew-resize;
+}
+
+#11:hover {
+    cursor: grab;
+}
+
+#12:hover {
+    cursor: grabbing;
+}
+
+#13:hover {
+    cursor: help;
+}
+
+#14:hover {
+    cursor: move;
+}
+
+#15:hover {
+    cursor: n-resize;
+}
+
+#16:hover {
+    cursor: ne-resize;
+}
+
+#17:hover {
+    cursor: nesw-resize;
+}
+
+#18:hover {
+    cursor: ns-resize;
+}
+
+#19:hover {
+    cursor: nw-resize;
+}
+
+#20:hover {
+    cursor: nwse-resize;
+}
+
+#21:hover {
+    cursor: no-drop;
+}
+
+#22:hover {
+    cursor: none;
+}
+
+#23:hover {
+    cursor: not-allowed;
+}
+
+#24:hover {
+    cursor: pointer;
+}
+
+#25:hover {
+    cursor: progress;
+}
+
+#26:hover {
+    cursor: row-resize;
+}
+
+#27:hover {
+    cursor: s-resize;
+}
+
+#28:hover {
+    cursor: se-resize;
+}
+
+#29:hover {
+    cursor: sw-resize;
+}
+
+#30:hover {
+    cursor: text;
+}
+
+#31:hover {
+    cursor: URL;
+}
+
+#32:hover {
+    cursor: vertical-text;
+}
+
+#33:hover {
+    cursor: w-resize;
+}
+
+#34:hover {
+    cursor: wait;
+}
+
+#35:hover {
+    cursor: zoom-in;
+}
+
+#36:hover {
+    cursor: zoom-out;
 }
 
 
