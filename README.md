@@ -10,3 +10,6 @@ In the list I have not included the following values:
 - URL: used to define specific, custom cursors.
 
 I have not included these four values because I consider them either completely self-explanatory or outright redundant.
+
+
+https://enej93.github.io/css-cursor/
