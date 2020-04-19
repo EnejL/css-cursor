@@ -12,4 +12,4 @@ In the list I have not included the following values:
 I have not included these four values because I consider them either completely self-explanatory or outright redundant.
 
 
-https://enej93.github.io/css-cursor/
+https://enejl.github.io/css-cursor/
